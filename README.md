@@ -1,3 +1,3 @@
 # rchgrca.io
 
-files for my portfolio
+Files for my online portfolio done in BackboneJS & HandlebarsJS
