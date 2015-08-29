@@ -1,0 +1,1053 @@
+@font-face {
+    font-family: 'socicon';
+    src: url('../font/socicon.eot');
+    src: url('../font/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../font/socicon.woff') format('woff'),
+         url('../font/socicon.ttf') format('truetype'),
+         url('../font/socicon.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
+
+.opl {
+position:fixed;
+top:100px;
+left:0px;
+z-index:99999;
+}
+
+.opl a {
+width:73px;
+height:56px;
+text-indent:-9999px;
+display:block;
+background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award-left.png') no-repeat;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: Adelle, serif; 
+  font-size: 1.5vw
+}
+
+h1, h2, h3, h4, ul {
+	margin: 0;
+	padding: 0;
+	font-family: 'jaf-facitweb', 'Helvetica Neue';
+}
+
+h1, h2, h3, h4 {
+	background-color: #0098A1;
+	color: #FFF;
+  	display: inline;
+  	padding: 1vw;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	color: #444;
+}
+
+video {
+  /*
+	filter: contrast(1.3) saturate(0);
+	-webkit-filter: contrast(1.3) saturate(0);
+	-moz-filter: contrast(1.3) saturate(0);
+  */
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari and Chrome, if Chrome rule needed */
+    video {
+       min-height: 100%; 
+       min-width: 100%; 
+       height: auto !important;
+       width: auto !important; 
+    }
+
+    /* Safari 5+ ONLY */
+    ::i-block-chrome, video {
+ 
+    }
+}
+
+a {
+	  color: #0098A1;
+  text-decoration: none;
+}
+
+.display-none {
+	display: none;
+}
+
+.clear-float {
+	  clear:both;
+}
+
+
+.content {
+	width: 80vw;
+	z-index: 5555;
+	position: inherit;
+}
+
+.content.overlay {
+	position: absolute;
+}
+
+#footer .content {
+	padding: 8vw;
+	width: 60vw;
+}
+
+#share .content{
+	padding: 8vw;
+	width: 84vw;
+	  height: 5vw;
+}
+
+.content.longtext {
+	font-size: 2vw;
+	font-weight: 200;
+	line-height: 3.2vw;
+	padding: 6vw 8vw 8vw 8vw;
+	width: 57vw;
+}
+
+.content.longtext h2{
+  	font-size: 4.5vw;
+	font-weight: 800;
+	line-height: 12vw;
+}
+
+.content.longtext .quote{
+  font-family: 'jaf-facitweb';
+  font-size: 2.7vw;
+  font-weight: 100;
+  font-style: italic;
+  margin: 4vw 8vw 4vw 4vw;
+  line-height: 4vw;
+  color: #0098A1;
+
+}
+
+#menu {
+	position: fixed;
+	top: 34vh;
+	right: 0;
+	z-index: 9999;
+	  top: 50vh;
+  margin-top: -100px;
+}
+
+#menu ul {
+	text-align: right;
+	list-style-type: none;
+}
+
+#menu li {
+ line-height: 22px;
+  margin-right: 3.1vw;
+ -webkit-filter: brightness(2.5);
+ 	filter: brightness(2.5);
+ 	-moz-filter: brightness(2.5);
+}
+
+#menu li img {
+	height: 8px;
+}
+
+#menu .nav-active, #menu a:hover , #menu a:active {
+	-webkit-filter: brightness(0.62) sepia(1) hue-rotate(138deg) saturate(3);
+ 	filter: brightness(0.62) sepia(1) hue-rotate(138deg) saturate(3);
+ 	-moz-filter: brightness(0.62) sepia(1) hue-rotate(138deg) saturate(3);
+ 	-webkit-transition: 0.5s;
+ 	transition: 0.5s;
+ 	-moz-transition: 0.5s;
+}
+
+#menu .nav-active img,  #menu a:active img{
+ 	-webkit-transform: scale(1);
+	transform: scale(1);
+	-moz-transform: scale(1);
+}
+
+
+#intro {
+	background-color: red;
+}
+
+#intro .content{
+  position: absolute;
+  bottom: 8vw;
+  left: 8vw;
+  /* margin-top: 24vh; */
+  text-align: left;
+  z-index: 999;
+  /*text-shadow: 0.1vw 0.1vw 6vw #4d6b74;*/
+}
+
+#intro .content h1{
+	font-size: 9.5vh;
+	font-weight: 600;
+	color: #FFF;
+	margin: 0;
+	/*outline
+  	-webkit-text-stroke-color: #FFF;
+  	-webkit-text-stroke-width: 0.2vw; */
+}
+
+#intro .content h2{
+	font-family: Adelle;
+	font-size: 4.5vh;
+	font-style: italic;
+	font-weight: 200;
+	color: #FFF;
+	margin: 0;
+}
+
+#background, #startrace {
+	background-color: #FFF;
+
+}
+
+#background .content img{
+  width: 84vw;
+  margin: 5vw 0 0 0;
+}
+
+#startrace .graphic-container{
+	height: 66vh;
+} 
+
+#startrace .graphic-container img{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+ }
+
+#cars {
+	background-color: #313131;
+	padding: 0 0 7.5vw 0;
+}
+
+#cars .content {
+  margin: 8vw 0 0 7.5vw;
+  padding: 0.95vw 2.5vw 2.5vw 2.5vw;
+  width: 80vw;
+  z-index: 5555;
+  position: inherit;
+}
+
+#cars .content.headline{
+  margin-top:  -80vh;
+  margin-bottom: 14vh;
+  padding: 0;
+  color: #FFF;
+}
+
+#cars .content.headline h2{
+font-size: 4.5vw;
+}
+
+#cars .content.text{
+   background-color: #FFF;
+   background-image: url(../media/2-1.png);
+   background-size: contain;
+}
+
+
+#cars .fadeout {
+  margin: -69.8vh 0 0 0;
+  width: 100vw;
+  height: 70vh;
+  background-color: transparent;
+  background-image: url(../media/fadeout2.png);
+  background-size: contain;
+  z-index: 5500;
+  position: absolute;
+  background-repeat:repeat-x;
+}
+
+#cars .video-container{
+	background-color: transparent;
+}
+
+#cars .content .col1 {
+	width: 30.333%;
+	float: left;
+	margin-right: 3vw;
+	margin-top: 0.31vw;
+
+}
+
+#cars .content .col2 {
+	width: 26.333%;
+	float: left;	
+	margin-right: 4.5%;	
+	margin-top: 1.5vw;
+}
+
+#cars .content .col3 {
+	width: 28.333%;
+	float: right;
+	margin: 0 0 0 2%;
+	margin-top: 1.5vw;
+	color: #FFF;
+}
+
+#cars .content .col img{
+  width: 95%;
+  margin-top: 3.3vw;
+  margin-left: 1vw;
+}
+
+#cars .content .col p{
+font-size: 1.7vw;
+  line-height: 2.4vw;
+  margin-top: 6.4vw;
+  margin-bottom: 1vw;
+}
+
+#cars .content .col3 p{
+  font-size: 1.3vw;
+  line-height: 2.1vw;
+  letter-spacing: 0.05vw;
+  margin-right: 1vw;
+  color: #FFF;
+  font-family: 'jaf-facitweb';
+  font-weight: 600;
+}
+
+#cars .content .col h2 {
+  margin-left: -2.55vw;
+  margin-top: -1.26vw;
+  padding: 1.3vw 0 1.3vw 3.7vw;
+  font-size: 2.5vw;
+  display: block;
+}
+
+#cars .content .col h3 {
+font-size: 1.8vw;
+  display: block;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 1.8vw;
+}
+
+#cars .content .col3 img {
+  margin: -10% 0 -30% -15%;
+  width: 126%;
+}
+
+#startrace .content{
+	margin-top: -23vw;
+}
+
+#startrace .firstp {
+	margin-top: 4vw;
+}
+
+#startrace .content img {
+	  margin: 4vw 0 4vw 0;
+  width: 100%;
+}
+
+.sth31{
+	  display: inline-block;
+  margin: 12vw 0 -16vw 0;
+
+}
+
+.sth3 {
+  display: inline-block;
+  margin: 8vw 0 4vw 0;
+}
+
+#crashvideo .playbutton {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  height: 20vh;
+  margin: 40vh 0vw 0vw 40vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+#crashvideo .playbutton img{
+	height: 100%;
+}
+
+#infographic {
+	background-color: #FFF;
+
+}
+
+#infographic .content{
+	width: 84vw;
+}
+
+#infographic .row {
+	margin: 5vw 0 0 0;
+}
+
+#infographic .row h3 {
+	line-height: 6vw;
+}
+
+#infographic .row p {
+  font-size: 1.5vw;
+  line-height: 2.2vw;
+  margin-top: 2.5vw;
+}
+
+#infographic .row img {
+  width: 56vw;
+  margin: 0.2vw 4vw 2vw 0vw;
+  float: left;
+  /*filter: grayscale(100%) contrast(1);
+  -webkit-filter: grayscale(100%) contrast(1);*/
+}
+
+.legende{
+  width: 43vw;
+  /* float: right; */
+  margin: 2.5vw 30.5vw -6vw -2.6vw;
+}
+
+#infographictwo {
+	background-color: #DDD;
+
+}
+
+#infographictwo h2{
+	  font-size: 4.5vw;
+}
+
+#infographictwo .headline {
+	position: absolute;
+  top: 6vw;
+  left: 8vw;
+}
+
+#infographictwo .infographic-wraper{
+
+}
+
+#infographictwo .infographic-wraper img.infomap{
+		width: 100%;
+		margin-bottom: -10px;
+}
+
+#infographictwo .infographic-wraper img.infoicon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8888;
+  width: 5%;
+  cursor: pointer;
+}
+
+
+#infographictwo .infographic-wraper img.infoicon01{
+	  margin: 33% 0 0 26%;
+}
+
+#infographictwo .infographic-wraper img.infoicon02{
+	margin: 10% 0 0 70%;
+}
+
+#infographictwo .infographic-wraper img.infoicon03{
+	  margin: 28% 0 0 57%;
+}
+
+#infographictwo .infographic-wraper img.infoicon04{
+	margin: 31% 0 0 51%;
+}
+
+#infographictwo .infographic-wraper img.infoicon05{
+	margin: 22% 0 0 65%;
+}
+
+#infographictwo .infographic-wraper img.infoicon06{
+	  margin: 22% 0 0 53%;
+}
+
+#infographictwo .infographic-wraper img.infoicon07{
+	margin: 24% 0 0 60%;
+}
+
+#infographictwo .infographic-wraper img.infoicon08{
+	  margin: 18% 0 0 74%;
+}
+
+#infographictwo .infographic-wraper img.infoicon09{
+	  margin: 32% 0 0 23%;
+}
+
+#infographictwo .infographic-wraper img.infoicon10{
+	margin: 33% 0 0 29%;
+}
+
+#infographictwo .infographic-wraper img.infoicon11{
+	margin: 23% 0 0px 41%;
+
+}
+
+#infographictwo .infographic-wraper img.infoicon12{
+	margin: 18% 0 0 60%;
+}
+
+#infographictwo .infographic-wraper img.infoicon13{
+	margin: 17% 0 0 77%;
+}
+
+#infographictwo .infographic-wraper img.infoicon14{
+	margin: 18% 0 0 60%;
+}
+
+
+#infographic-control {
+	background-color: #0098A1;
+	  height: 6vw;
+}
+
+#infographic-control div{
+  /* width: 10.33vw; */
+  color: #FFF;
+  /* text-align: center; */
+  display: inline;
+  padding: 1.7vw 0 0 4vw;
+  font-size: 2vw;
+  font-family: 'jaf-facitweb';
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+#i-c01{
+	float: left;
+	margin-left: 4.5vw;
+	cursor: pointer;
+
+}
+
+#i-c02{
+	float: left;
+	cursor: pointer;
+}
+
+#i-c03{
+	float: left;
+	cursor: pointer;
+}
+
+.i-cActive {
+	opacity: 1 !important;
+}
+
+
+.video-box {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 88888;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.video {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999;
+  /* margin: -50vw 9.5vw 0 0; */
+  /* height: 50vh; */
+  background-color: #000;
+  padding: 3vw 3vw;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+}
+
+#infographictwo .video img {
+	width: 100%;
+}
+
+#infographictwo .video iframe{
+	width: 50vw;
+	height: 35vw;
+}
+
+
+.video-box-display {
+	display: block !important;
+}
+
+#following {
+	background-color: #FFF;
+
+}
+
+#following p {
+	  margin-top: 4vw;
+}
+
+#closing {
+	background-color: #0098A1;
+	color: #FFF;
+}
+
+#closing h2{
+	padding: 0;
+}
+
+#closing .longtext {
+	padding: 5vw 8vw 8vw 8vw;
+
+}
+
+#closing p {
+		color: #FFF;
+		letter-spacing: 0.05vw;
+}
+
+#footer {
+	background-color: #313131;
+	color: #FFF
+}
+
+#footer p {
+
+  color: #FFF;
+  margin: 3vw 0 -1.5vw 0vw;
+  line-height: 2.2vw;
+
+}
+
+#footer a {
+  color: #0098A0;
+  text-decoration: none;
+
+}
+
+h3 a{
+	color: #FFF !important;
+	text-decoration: none;
+}
+
+#footer .content {
+	  margin-bottom: -8vw;
+}
+
+
+#share {
+	background-color: #FFF;
+	color: #0098A1;
+}
+
+.page {
+	width: 100%; 
+	margin: auto; 
+	  position: relative;
+	/*
+	min-height: 100%; 
+	height: auto !important;
+	height: 100%;*/
+}
+
+.footer01 {
+	float: right;
+}
+
+.footer01 a{
+	color: #313131;
+	text-decoration: none;
+}
+
+.footer02 {
+	  font-size: 4.5vw;
+  font-family: 'jaf-facitweb';
+  font-weight: 600;
+  color: #313131;
+}
+
+
+.footer01 p {
+	display: inline;
+	vertical-align: 3.4vw;
+}
+
+.socialmedia{
+	font-family: 'socicon'  !important;
+	font-size: 5vw;
+	margin: 0 0 0 2vw;
+}
+
+
+/* Seitenverhaeltnis HOCH -------------- */
+
+@media all and (max-aspect-ratio: 3 / 2) {
+
+#intro .content h1{
+	font-size: 6.333vw;
+	margin: 0;
+}
+
+#intro .content h2{
+	font-size: 3vw;
+	margin: 0;
+}
+
+#intro .content {
+  left: 8vw;
+}
+
+
+}
+/* Image Background Fullscreen -------------- */
+
+.graphic-container{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	z-index: 0;
+}
+
+/* Firefox 3.0+ */
+
+
+
+
+.graphic-container img{
+	position: absolute;
+	height: 100vh;
+	margin-left: 50vw;
+	margin-top: 0;
+	transform: translateX(-88.888vh);
+	-webkit-transform: translateX(-88.888vh);
+	-moz-transform: translateX(-88.888vh);
+}
+
+
+/* VIDEO Background Fullscreen -------------- */
+
+.video-container{
+	position: relative;
+	top:0;
+	left:0;
+	height: 100vh;
+	width: 100vw;
+	background-color: #313131;
+	overflow: hidden;
+	z-index: 0;
+}
+
+/* Firefox 3.0+ */
+@-moz-document url-prefix() {
+
+.video-container{ 
+  transform: translateZ(0);
+}
+
+.graphic-container{
+  transform: translateZ(0);
+}
+
+#cars .video-container {
+    height: 110vh !important;
+}
+
+}
+
+video {
+	position: absolute;
+	z-index: 0;
+}
+
+#intro video {
+	position: fixed;
+	z-index: 10;
+	/*
+	-webkit-filter: opacity(0.7);
+ 	filter: opacity(0.7);*/
+
+}
+
+#cars video {
+	z-index: 5;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+}
+
+#cars .video-container {
+	height: 130vh;
+}
+
+video.mov-fullscreen{
+	height: 100vh;
+	margin-left: 50vw;
+	margin-top: 0;
+	transform: translateX(-88.888vh);
+	-webkit-transform: translateX(-88.888vh);
+	-moz-transform: translateX(-88.888vh);
+	/*
+	-webkit-filter: sepia(1) hue-rotate(140deg) opacity(0.9);
+ 	filter: sepia(1) hue-rotate(140deg) opacity(0.9);*/
+
+}
+
+@media all and (min-aspect-ratio: 16 / 9) {
+
+video.mov-fullscreen{
+	width: 100vw;
+	height: auto;
+	margin-left: 0;
+	margin-top: 50vh;
+	transform: translateY(-28.125vw);
+	-webkit-transform: translateY(-28.125vw);
+	-moz-transform: translateY(-28.125vw);
+}
+
+.graphic-container img{
+	width: 100vw;
+	height: auto;
+	margin-left: 0;
+	margin-top: 50vh;
+	transform: translateY(-28.125vw);
+	-webkit-transform: translateY(-28.125vw);
+	-moz-transform: translateY(-28.125vw);
+}
+
+}
+
+/*hochkant */
+
+@media all and (max-aspect-ratio: 3 / 4) {
+
+p {
+	  font-size: 5.5vw;
+  line-height: 7.5vw;
+}
+
+
+.display-none {
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 111;
+}
+
+#menu {
+  display: none;
+}
+
+.video-container {
+  height: 66vh;
+}
+
+#intro .content h1 {
+  font-size: 9.333vw;
+}
+
+#intro .content h2 {
+  font-size: 5vw;
+}
+
+#intro .content {
+  bottom: 16vw;
+}
+
+.content.longtext h2{
+  font-size: 7.5vw;
+}
+
+#footer h2, #footer h3{
+  font-size: 7.5vw;
+  line-height: 24vw;
+}
+
+.content.longtext {
+  	line-height: 6vw;
+  	width: 84vw;
+}
+
+.content.longtext .quote {
+ font-size: 7.7vw;
+  margin: 6vw 8vw 6vw 5vw;
+  line-height: 10vw;
+}
+
+#cars .video-container {
+
+}
+#cars .content {
+  margin: 8vw 0 10vw 7.5vw;
+  padding: 8vw;
+  width: 69vw;
+}
+#cars .content.headline h2 {
+  font-size: 7.5vw;
+}
+
+#cars .content.headline {
+  margin-top: -111vh;
+  margin-bottom: 6vh;
+}
+
+#cars .content .col1 {
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
+#cars .content .col2 {
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
+#cars .content .col3 {
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
+#cars .content.text {
+  background-size: initial;
+}
+
+#cars .content .col h2 {
+  margin-left: 0;
+  padding: 0;
+  font-size: 6.5vw;
+  background-color: transparent;
+  color: #0098A1;
+}
+
+#cars .content .col img {
+  width: 100%;
+  margin-top: 6vw;
+  margin-left: 0;
+}
+
+#cars .col3 img {
+	  -webkit-filter: invert(1);
+	  -filter: invert(1);
+	  -moz-filter: invert(1);
+	    margin: -20% 0 -10% -10% !important;
+  width: 119% !important;
+}
+
+#cars .content .col p {
+  font-size: 5.5vw;
+  line-height: 7.5vw;
+}
+
+#cars .content .col3 p {
+
+  letter-spacing: 0.00vw;
+  margin-right: 1vw;
+  color: #333;
+}
+
+#cars .content .col h3 {
+  color: #0098A1;
+  font-size: 5.5vw;
+  line-height: 20vw
+}
+
+#startrace .content {
+    margin-top: -37vw;
+}
+
+#startrace .firstp {
+  margin-top: 16vw;
+}
+
+
+.content.longtext {
+  padding: 16vw 8vw 16vw 8vw;
+}
+
+#infographic .row img {
+  width: 84vw;
+  margin: 8vw 4vw 4vw 0vw;
+ }
+
+#infographic .row p {
+  font-size: 5.5vw;
+  line-height: 7.5vw;
+}
+
+#infographic .row h3 {
+  line-height: 18vw;
+  font-size: 4.5vw;
+}
+
+.legende {
+  width: 80vw;
+  margin: 8.5vw -6.5vw -8vw -4vw;
+}
+
+#infographictwo h2 {
+  font-size: 3.5vw;
+}
+
+#infographic-control div {
+  font-size: 2.5vw;
+ }
+
+#infographic-control {
+  height: 9.5vw;
+}
+
+#following p {
+  margin-top: 7vw;
+}
+
+#closing .longtext {
+  padding: 11vw 8vw 16vw 8vw;
+}
+
+#footer .content, #share .content{
+	width: 83vw;
+}
+
+
+#footer .content p {
+	font-size: 5.5vw;
+  line-height: 7.5vw;
+}
+
+.imprint .content p {
+  word-wrap: break-word;
+  font-size: 2vw !important;
+  line-height: 3.5vw !important;
+}
+
+.sth31 {
+  display: inline-block;
+  margin: 23vw 0 -16vw 0;
+  font-size: 6vw;
+  line-height: 8vw;
+}
+
+.sth3 {
+  font-size: 6vw;
+  line-height: 8vw;  
+}
+
+}

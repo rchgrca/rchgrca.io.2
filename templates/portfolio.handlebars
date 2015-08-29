@@ -1,0 +1,30 @@
+			<div id="header">
+				<div class="top">
+					<div id="logo">
+						<span class="image avatar48"><img src="{{avatar}}" alt="{{name}}" /></span>
+						<h1 id="title">{{name}}</h1>
+						<p>{{tagline}}</p>
+					</div>
+					<nav id="nav">
+						<ul class="navlets">
+						{{#each navlet}}
+							<li><a href="#{{name}}" id="{{name}}-link" class="skel-layers-ignoreHref"><span class="icon {{font-awesome}}">{{display}}</span></a></li>
+						{{/each}}
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div id="main">
+			{{#each project}}
+				<section id="{{name}}" class="{{class}}">
+					<div class="container">
+						<header>
+							<h2 class="alt">{{display}}</h2>
+						</header>
+						<div class="row">
+							{{{content}}}
+						</div>
+					</div>
+				</section>
+			{{/each}}
+			</div>
