@@ -1,0 +1,33 @@
+html{background: url(http://hatch.aol.com/social/img/blue_pattern_flat.gif) repeat; color:#333;}
+h1{color:#FFF; font-weight: bold; font-size: 2.8em;}
+h3{color:#333; font-weight: bold; font-size: 1.2em;padding:20px 0 0px 20px;}
+h4{color:#8dc63f; font-weight: bold; font-size: 1.1em;padding:0px;}
+.clear {clear:both;}
+
+#hd{margin:0px; padding:0px;}
+#bd{margin:0px; padding:0px;}
+	
+#infoGraphic{margin:0px; width:962px; height:250px; border: 1px solid #333; background-image: url(http://hatch.aol.com/social/img/aoli_bnr7_final.jpg);background-repeat: no-repeat; margin:20px 0px;}
+
+#infoGraphicTimr{margin:0px; width:962px; height:250px; border: 1px solid #333; background-image: url(http://hatch.aol.com/social/img/aoli_bnr6_blank.jpg);background-repeat: no-repeat; margin:20px 0px;}
+
+#steps{background-color: #FFF; margin-bottom:20px; padding:0px; border:1px solid #0382d4;}
+#steps ul h4 img{position: relative; top:15px; border:none;}	
+#steps ul{margin:0 20px 20px 20px; padding: 0px;}
+#steps ul li p{padding:0 0 10px 0px;}
+#steps ul li img{padding:10px 0px;}
+#steps ul li #gr{border:1px solid #A5A5A5;}
+#steps p{margin:20px;}	
+
+
+#cta{color:#333;}		
+#prizes{margin:10px;}	
+#prizes li{margin:0 0 15px 0;}
+#strong{font-weight: bold;}
+#em {font-style: italic;}
+
+#aolit{border:1px solid #8dc63f; margin-top:0px;}
+
+#list {background-color: #FFF; margin-bottom:20px; padding:20px; border:1px solid #0382d4;}
+#list p {margin:0 0 10px 0;}
+#doc3 h1 {color:#333;}
