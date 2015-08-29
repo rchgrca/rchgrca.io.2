@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5049"
+   name=""
+   committed-date="2010-10-28T21:30:01.523680Z"
+   url="svn+ssh://svn.cm.aol.com/public/labs/labs_aol_com/pages/social/img"
+   last-author="rgarcia"
+   kind="dir"
+   revision="5049"/>
+<entry
+   committed-rev="5049"
+   name="ss1.jpg"
+   text-time="2010-10-21T21:23:22.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="64ad1c184a9d6f43fbebbfa95d07600c"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="ss2.jpg"
+   text-time="2010-10-21T21:42:28.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="155a587f4c7f3f20e274c5761b49b668"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="ss2_b.jpg"
+   text-time="2010-10-28T15:41:18.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="b5f226a3ac5b6068afdc36d915321b00"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="ss3.jpg"
+   text-time="2010-10-21T21:48:40.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="ba95a7dad9b5177292a8d2bd051b9e30"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="ss3_b.jpg"
+   text-time="2010-10-28T15:41:19.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="3c48e09e6842653c6c476e8cde65f3fa"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aol_social.png"
+   text-time="2010-10-21T19:41:11.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="8942efe59ae803c686ba107383bf1ec4"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="ss4.jpg"
+   text-time="2010-10-21T21:51:08.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="9e8a782b57cac20bbf9c7eeca443894d"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="li1.gif"
+   text-time="2010-10-22T17:10:37.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="f8819cbc11a2f0a9b1cc2bfe72023aa7"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr6.jpg"
+   text-time="2010-10-25T02:02:00.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="0d81bbc1d5a81407ccd9ec5a85689dbb"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr_300.png"
+   text-time="2010-10-21T18:43:58.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="60403538dca55773e7788fa647dd608c"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="li2.gif"
+   text-time="2010-10-22T17:10:38.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="c1a34ff6b46898b1dc9666c3c7813340"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr2.png"
+   text-time="2010-10-22T21:04:28.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="3d4071829ed7627326e000afad74e3b0"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="ss3.png"
+   text-time="2010-10-23T18:50:41.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="9c1a11bae8b76e04077e74d54627306b"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr3.png"
+   text-time="2010-10-22T21:39:01.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="4f9c9778bfa4216c1116289ebea663f2"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="li3.gif"
+   text-time="2010-10-22T17:10:38.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="00f92ddff44c5e47c977e1dd188a55e0"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="ajax-loader.gif"
+   text-time="2010-10-24T22:24:50.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="a51c5608d01acf32df728f299767f82b"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="li4.gif"
+   text-time="2010-10-22T17:10:38.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="81df04844c77010672dacf35edb97de6"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr4.png"
+   text-time="2010-10-22T23:08:43.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="6e5fbf2ad011f4a1289eacb4d5cdc5f1"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="li5.gif"
+   text-time="2010-10-22T17:10:38.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="2b2fca1ba9680ed7d684ecda63be88a2"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr5.png"
+   text-time="2010-10-22T23:17:57.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="d0d7d7ef70469e260c2eb3bb45aa8a2a"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="blue_pattern_flat.gif"
+   text-time="2010-10-22T18:45:21.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="f3fdc6ad847f94d7199a672d260eaaee"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr6.png"
+   text-time="2010-10-22T23:36:07.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="944eaf2e6c486629550fd56f4b73393c"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr6_blank.jpg"
+   text-time="2010-10-25T00:02:47.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="a23e6989047b413c2af1259c87145897"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr7_final.jpg"
+   text-time="2010-10-28T15:41:22.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="7bd0ca29403ac761a6801c4b7ecb653b"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr.png"
+   text-time="2010-10-21T18:11:50.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="f29173b3f1f6b2685af32aaa27dd0b87"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="bg.png"
+   text-time="2010-10-21T16:56:07.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="c0fb9d5c95bf213b12158d848842c582"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="julieanne_winner.jpg"
+   text-time="2010-10-28T15:17:02.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="3f78f7d447b5349c4d517337eeebf611"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+<entry
+   committed-rev="5049"
+   name="aoli_bnr_new.jpg"
+   text-time="2010-10-25T05:15:58.000000Z"
+   committed-date="2010-10-28T21:30:01.523680Z"
+   checksum="0227656c3af21dd6a40754b66d360f53"
+   last-author="rgarcia"
+   kind="file"
+   prop-time="2010-10-28T21:29:38.000000Z"/>
+</wc-entries>
