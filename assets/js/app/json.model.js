@@ -4,7 +4,7 @@ var getModel = (function(){
 
 	var model = {
 					name: "Richard L. Garcia",
-					tagline: "Dude, Data, Developer",
+					tagline: "Dude, Dad, Developer",
 					avatar: "/img/rich.beanie.copy.jpg",
 					email: "rchgrca@gmail.com",
 					phone: "510.918.3102",
