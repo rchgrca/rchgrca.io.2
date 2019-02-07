@@ -21,7 +21,7 @@ db.auth('social_day', "root", "gmendoza" );
 var path_decodes = "/pro/decodes?";
 var path_encodes = "/pro/encodes?";
 var login = "aoldemo";
-var apiKey = "R_cbeb775a43f6d7b2a38fdb6311cba123";
+var apiKey = "";
 
 //create bitly username, aol email address map
 var oAolEmployees = {};                       
